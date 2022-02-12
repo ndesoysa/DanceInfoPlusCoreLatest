@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanceInfoPlusCoreLatest", "DanceInfoPlusCoreLatest\DanceInfoPlusCoreLatest.csproj", "{BFC781C6-04D8-4B3E-95CB-84CC6C4EA89D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DanceInfoPlusCoreLatest", "DanceInfoPlusCoreLatest\DanceInfoPlusCoreLatest.csproj", "{BFC781C6-04D8-4B3E-95CB-84CC6C4EA89D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanceInfoPlus.Stripe", "DanceInfoPlus.Stripe\DanceInfoPlus.Stripe.csproj", "{D3A4CEEE-F362-4F6C-B9D1-BEC8CDB13E37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DanceInfoPlus.Stripe", "DanceInfoPlus.Stripe\DanceInfoPlus.Stripe.csproj", "{D3A4CEEE-F362-4F6C-B9D1-BEC8CDB13E37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeTests", "CodeTests\CodeTests.csproj", "{0195F494-72C5-4C8B-8128-94C7A31513CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D3A4CEEE-F362-4F6C-B9D1-BEC8CDB13E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3A4CEEE-F362-4F6C-B9D1-BEC8CDB13E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3A4CEEE-F362-4F6C-B9D1-BEC8CDB13E37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0195F494-72C5-4C8B-8128-94C7A31513CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0195F494-72C5-4C8B-8128-94C7A31513CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0195F494-72C5-4C8B-8128-94C7A31513CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0195F494-72C5-4C8B-8128-94C7A31513CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
